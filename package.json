@@ -2,7 +2,8 @@
   "name": "custom_bigdata",
   "version": "1.0.0",
   "scripts": {
-    "start": "yarn parcel src/index.html"
+    "start": "yarn parcel src/index.html",
+    "build": "yarn parcel build src/index.html --public-url ./"
   },
   "repository": "https://github.com/oovwall/custom_bigdata.git",
   "author": "oovwall <oovwall@163.com>",
